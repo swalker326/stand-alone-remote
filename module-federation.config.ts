@@ -1,7 +1,7 @@
 import { createModuleFederationConfig } from "@module-federation/enhanced";
 
 export const config = createModuleFederationConfig({
-  name: "detached-remote",
+  name: "detachedRemote",
   filename: "remoteEntry.js",
   exposes: {
     "./App": "./src/App.tsx"
