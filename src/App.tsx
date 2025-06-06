@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <h1>Detached Remote</h1>
-      <p>I'm a remote from a complexly separate repo. </p>
+      <p>I'm a remote from a separate repo. </p>
     </div>
   );
 }
